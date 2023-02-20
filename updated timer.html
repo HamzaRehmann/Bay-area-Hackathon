@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <form>
+                <label for="timerInput">Set timer (minutes):</label>
+                <input type="number" id="timerInput" min="1" max="60">
+                <button type="button" id="startBtn">Start</button>
+                <button type="button" id="resetBtn">Reset</button>
+                <button type="button" id="logBtn">Log List</button>
+            </form>
+            <h1 id="timeDisplay">00:00</h1>
+        </div>
+    </section>
+    <audio id="alarm" src="wrong-answer-129254.mp3"></audio>
+    <div id="logList">
+        <h2>Log List</h2>
+        <ul id="logUl"></ul>
+        <button type="button" id="closeLogBtn">Close</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
