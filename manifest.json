@@ -1,0 +1,10 @@
+{
+    "name": "Productivity Timer",
+    "description": "Use this timer to maintain concentration and finish your work without being distracted. Set the timer for the length of time you choose, then focus only on your job. Make the most of this time by working efficiently.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "defualt_popup": "checking.html",
+        "default_icon": "timer.png"
+    }
+}
